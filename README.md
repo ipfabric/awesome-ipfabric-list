@@ -42,4 +42,4 @@ List of links and repos of useful integrations for IP Fabric users and developer
 - [Python for Excel Worksheets, data validation and modeling with IPFabric](https://www.youtube.com/watch?v=JxWX1pOwZvg) <br> Using Python with IPFabric to do data validation and create Excel documents.
 
 ## Blogs
-- [IPFabric Blog](https://ipfabric.io/blog/) - The official IPFabric blog.
+- [IPFabric Blog](https://ipfabric.io/blog/) <br> The official IPFabric blog.
