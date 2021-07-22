@@ -41,6 +41,8 @@ List of links and repos of useful integrations for IP Fabric users and developer
 - [Unboxing the IP Fabric API](https://www.youtube.com/watch?v=QX9o7UQJ9h4) <br> Discovering how to use the IP Fabric API. 
 - [Python AsyncIO with IP Fabric](https://www.youtube.com/watch?v=RLyKYP2_uiE) <br> Using Python AsyncIO with IP Fabric.
 - [Python for Excel Worksheets, data validation and modeling with IP Fabric](https://www.youtube.com/watch?v=JxWX1pOwZvg) <br> Using Python with IP Fabric to do data validation and create Excel documents.
+- [Automated network remediation with IP Fabric](https://www.youtube.com/watch?v=pVGcqf1hNHQ) <br> Using IP Fabric's webhooks to trigger network automation activities in Python/Nornir
+- [IP Fabric and Cisco PSIRT API](https://www.youtube.com/watch?v=1NAuWwwycDg) <br> Demo of a script to take output from IP Fabric and the Cisco PSIRT API and produce vulnerability reports for Cisco devices in the inventory
 
 ## Blogs
 - [IP Fabric Blog](https://ipfabric.io/blog/) <br> The official IP Fabric blog.
