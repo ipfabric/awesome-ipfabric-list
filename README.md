@@ -10,6 +10,7 @@ List of links and repos of useful integrations for IP Fabric users and developer
 - [Miscellaneous](#miscellaneous)
 - [Videos](#videos)
 - [Blogs](#blogs)
+- [Community](#community)
 
 ## Monitoring
 - Nothing to display yet.
@@ -43,3 +44,6 @@ List of links and repos of useful integrations for IP Fabric users and developer
 
 ## Blogs
 - [IP Fabric Blog](https://ipfabric.io/blog/) <br> The official IP Fabric blog.
+
+## Community
+- [IP Fabric Discord](https://discord.gg/JdT6BxbX) <br> IP Fabric's Discord server for access to the IP Fabric team and wider community discussion
