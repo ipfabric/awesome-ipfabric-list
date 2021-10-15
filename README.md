@@ -34,6 +34,7 @@ List of links and repos of useful integrations for IP Fabric users and developer
 ## Miscellaneous
 - [Integration Demos](https://github.com/community-fabric/integration-demos) <br> Python examples used to demonstrate IP Fabric's integrations with other systems.
 - [OSPF Cost Baseline](https://github.com/jamieparks/IPFabric-OSPF-Cost-Baseline) <br> Compares live OSPF Interface costs against a set of values in a CSV file.
+- [SiteSeparation](https://github.com/sdargoeuves/ipf-siteSeparation) <br> Python script to automatically update siteSeparation in IP Fabric based on external source.
 
 ## Videos
 - [IP Fabric Youtube Channel](https://www.youtube.com/c/IPFabric/videos) <br> IP Fabric's official Youtube channel.
