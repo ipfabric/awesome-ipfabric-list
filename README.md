@@ -27,6 +27,7 @@ List of links and repos of useful integrations for IP Fabric users and developer
 ## Libraries
 - [ipf-netcfgbu](https://github.com/jeremyschulman/ipf-netcfgbu) <br> Save the network device configuration from IP Fabric into a Git repository.
 - [aio-ipfabric](https://github.com/jeremyschulman/aio-ipfabric) <br> Python Asyncio Client for IP Fabric.
+- [python-ipfabric](https://github.com/community-fabric/python-ipfabric) <br> Python module for interacting with IP Fabric API.
 
 ## ChatOps
 - [IP Fabric Slack Integration](https://github.com/ipfabric/ipfabric-slack-integration) <br> IP Fabric Slack Integration Example
