@@ -32,11 +32,13 @@ List of links and repos of useful integrations for IP Fabric users and developer
 ## ChatOps
 - [IP Fabric Slack Integration](https://github.com/ipfabric/ipfabric-slack-integration) <br> IP Fabric Slack Integration Example
 - [Nautobot Chatops application](https://github.com/nautobot/nautobot-plugin-chatops-ipfabric) <br> Nautobot IP Fabric ChatOps integration with Slack, Teams, Webex etc
+- [IP Fabric Slack webhook notification] (https://github.com/community-fabric/ipfabric-slack-webhook) <br> Send your IP Fabric webhook notifications to a Slack channel
+- [IP Fabric MS Teams webhook notification] (https://github.com/community-fabric/ipfabric-teams-webhook) <br> Send your IP Fabric webhook notifications to a MS Teams room
 
 ## Miscellaneous
 - [Integration Demos](https://github.com/community-fabric/integration-demos) <br> Python examples used to demonstrate IP Fabric's integrations with other systems.
 - [OSPF Cost Baseline](https://github.com/jamieparks/IPFabric-OSPF-Cost-Baseline) <br> Compares live OSPF Interface costs against a set of values in a CSV file.
-- [SiteSeparation](https://github.com/sdargoeuves/ipf-siteSeparation) <br> Python script to automatically update siteSeparation in IP Fabric based on external source.
+- [Site Separation](https://github.com/sdargoeuves/ipf-siteSeparation) <br> Python script to automatically update siteSeparation in IP Fabric based on external source.
 
 ## Videos
 - [IP Fabric Youtube Channel](https://www.youtube.com/c/IPFabric/videos) <br> IP Fabric's official Youtube channel.
