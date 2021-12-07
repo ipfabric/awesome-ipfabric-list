@@ -31,6 +31,7 @@ List of links and repos of useful integrations for IP Fabric users and developer
 
 ## ChatOps
 - [IP Fabric Slack Integration](https://github.com/ipfabric/ipfabric-slack-integration) <br> IP Fabric Slack Integration Example
+- [Nautobot Chatops application](https://github.com/nautobot/nautobot-plugin-chatops-ipfabric) <br> Nautobot IP Fabric ChatOps integration with Slack, Teams, Webex etc
 
 ## Miscellaneous
 - [Integration Demos](https://github.com/community-fabric/integration-demos) <br> Python examples used to demonstrate IP Fabric's integrations with other systems.
