@@ -1,56 +1,119 @@
 # Awesome IP Fabric [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+
 List of links and repos of useful integrations for IP Fabric users and developers.
 
 ## Table of Contents
+
+- [Libraries](#libraries)
 - [Monitoring](#monitoring)
 - [Source of Truth](#source-of-truth)
 - [Configuration Management](#configuration-management)
-- [Libraries](#libraries)
 - [ChatOps](#chatops)
 - [Miscellaneous](#miscellaneous)
 - [Videos](#videos)
 - [Blogs](#blogs)
 - [Community](#community)
 
+## Libraries
+
+- [python-ipfabric](https://github.com/community-fabric/python-ipfabric)
+  - IP Fabric supported Python SDK for interacting with IP Fabric API, includes diagramming support for v4.0-4.2.
+  - Please open bugs or feature requests on [GitHub](https://github.com/community-fabric/python-ipfabric/issues)
+- [python-ipfabric-diagrams](https://github.com/community-fabric/python-ipfabric-diagrams)
+  - IP Fabric supported Python SDK for interacting with IP Fabric Diagrams in v4.3 and above.
+  - Please open bugs or feature requests on [GitHub](https://github.com/community-fabric/python-ipfabric-diagrams/issues)
+- [aio-ipfabric](https://github.com/jeremyschulman/aio-ipfabric)
+  - Community built Python Asyncio Client for IP Fabric.
+  - [Python AsyncIO with IP Fabric Demo Video](https://www.youtube.com/watch?v=RLyKYP2_uiE)
+
 ## Monitoring
-- Nothing to display yet.
+
+- [How to integrate with Splunk](https://ipfabric.io/blog/how-to-integrate-ip-fabric-with-splunk/)
+  - Blog article discussing how a Splunk integration is performed.
 
 ## Source of Truth
-- [NAUTI (Network Automation Tools Integrator)](https://nauti-netdev.github.io/nauti-docs/) <br> This tool allows for the ability to sync from IP Fabric to Sources of Truth such as Netbox.
-- [ipf-netbox](https://github.com/jeremyschulman/ipf-netbox) <br> This package provides a CLI and python modules useful to integrate between IP Fabric and the Netbox project.
 
+- [Nautobot Single Source of Truth (SSOT) IP Fabric Plugin](https://github.com/justinjeffery-ipf/nautobot-plugin-ssot-ipfabric)
+  - This is a plugin for the [Nautobot](https://nautobot.readthedocs.io/) platform (Netbox Fork) which allows for 
+    connecting to an IP Fabric instance and using the information in IPF to populate or update Nautobot.
+- [NAUTI (Network Automation Tools Integrator)](https://nauti-netdev.github.io/nauti-docs/)
+  - This tool allows for the ability to sync from IP Fabric to Sources of Truth such as Netbox.
+- [ipf-netbox](https://github.com/jeremyschulman/ipf-netbox)
+  - This package provides a CLI and python modules useful to integrate between IP Fabric and the Netbox project.
 
 ## Configuration Management
-- [ansible-ipfabric](https://github.com/axiansdeveloper/ansible-ipfabric) <br> Ansible collection to work with IP Fabric (Inventory, Modules).
-- [nornir-ipfabric](https://github.com/routetonull/nornir_ipfabric) <br> IP Fabric inventory plugin for [nornir](https://github.com/nornir-automation/nornir).
 
-## Libraries
-- [ipf-netcfgbu](https://github.com/jeremyschulman/ipf-netcfgbu) <br> Save the network device configuration from IP Fabric into a Git repository.
-- [aio-ipfabric](https://github.com/jeremyschulman/aio-ipfabric) <br> Python Asyncio Client for IP Fabric.
-- [python-ipfabric](https://github.com/community-fabric/python-ipfabric) <br> Python module for interacting with IP Fabric API.
+- [ansible-ipfabric](https://github.com/axiansdeveloper/ansible-ipfabric)
+  - Ansible collection to work with IP Fabric (Inventory, Modules).
+- [nornir-ipfabric](https://github.com/routetonull/nornir_ipfabric)
+  - IP Fabric inventory plugin for [nornir](https://github.com/nornir-automation/nornir).
+- [ipf-netcfgbu](https://github.com/jeremyschulman/ipf-netcfgbu)
+  - Save the network device configuration from IP Fabric into a Git repository.
+- [python-ipfabric Config Example](https://github.com/community-fabric/python-ipfabric/blob/main/examples/tools/config.py)
+  - Example on how to use python-ipfabric to search and get device configurations or logs.
 
 ## ChatOps
-- [IP Fabric Slack Integration](https://github.com/ipfabric/ipfabric-slack-integration) <br> IP Fabric Slack Integration Example
-- [Nautobot Chatops application](https://github.com/nautobot/nautobot-plugin-chatops-ipfabric) <br> Nautobot IP Fabric ChatOps integration with Slack, Teams, Webex etc
-- [IP Fabric Slack webhook notification](https://github.com/community-fabric/ipfabric-slack-webhook) <br> Send your IP Fabric webhook notifications to a Slack channel
-- [IP Fabric MS Teams webhook notification](https://github.com/community-fabric/ipfabric-teams-webhook) <br> Send your IP Fabric webhook notifications to a MS Teams room
+
+- [Nautobot Chatops application](https://github.com/nautobot/nautobot-plugin-chatops-ipfabric)
+  - [Nautobot](https://nautobot.readthedocs.io/) IP Fabric ChatOps integration with Slack, Teams, Webex etc
+- [IP Fabric Webhook Notification](https://github.com/community-fabric/ipfabric-webhook-listener/tree/notify)
+  - IP Fabric supported webhook listener and will send a notification to Slack or Teams when Snapshot events occur.
+- [IP Fabric Slack Integration](https://github.com/ipfabric/ipfabric-slack-integration)
+  - IP Fabric Slack Integration Example (built for IPF v3)
 
 ## Miscellaneous
-- [Integration Demos](https://github.com/community-fabric/integration-demos) <br> Python examples used to demonstrate IP Fabric's integrations with other systems.
-- [OSPF Cost Baseline](https://github.com/jamieparks/IPFabric-OSPF-Cost-Baseline) <br> Compares live OSPF Interface costs against a set of values in a CSV file.
-- [Site Separation](https://github.com/sdargoeuves/ipf-siteSeparation) <br> Python script to automatically update siteSeparation in IP Fabric based on external source.
+
+- [Integration Demos](https://github.com/community-fabric/integration-demos)
+  - Python examples used to demonstrate IP Fabric's integrations with other systems.
+- [OSPF Cost Baseline](https://github.com/jamieparks/IPFabric-OSPF-Cost-Baseline)
+  - Compares live OSPF Interface costs against a set of values in a CSV file.
+- [Site Separation](https://github.com/sdargoeuves/ipf-siteSeparation)
+  - With the addition of new Site Separation rules in IPF v4.3 please see 
+    [Site Separation using Device Attributes Example](https://github.com/community-fabric/python-ipfabric/blob/main/examples/settings/attributes.py)
+  - Python script to automatically update siteSeparation in IP Fabric based on external source for v4.2 or below.
+- CVE reporting examples:
+  - [python-ipfabric CVE Example](https://github.com/community-fabric/python-ipfabric/blob/main/examples/tools/cve_check.py)
+    - Uses python-ipfabric to pull CVE data for devices, sites, or vendors.
+  - [CVE Report](https://github.com/community-fabric/cve-report)
+    - Also uses python-ipfabric but creates an Excel report for all devices.
+- Intent Rules
+  - [python-ipfabric Intent Rule Reporting](https://github.com/community-fabric/python-ipfabric/blob/main/examples/intent_reports.py)
+    - Uses python-ipfabric to pull Intent checks and the example also shows an Excel report.
+    - Also shows ho to use the comparison feature which compares Intent checks between snapshots.
+  - [python-ipfabric Intent Rule Data](https://github.com/community-fabric/python-ipfabric/blob/main/examples/intent.py)
+    - Uses python-ipfabric to pull the data for an Intent checks which will return the table data not just the number
+      of results.
+- [Automated PDF Report](https://github.com/community-fabric/ipfabric-webhook-listener/blob/pdf_report/README-pdf.md)
+  - Uses the webhook listener to create and email a PDF summary report when an automated snapshot completes
+- [Webhook Listener to Postgres DB](https://github.com/community-fabric/ipfabric-webhook-listener/blob/postgres/README-postgres.md)
+  - Uses webhook listener to extract certain data from IP Fabric and insert it into a Postgres DB for long term
+    trending analysis for tools lie Tableau, Grafana, etc.
 
 ## Videos
-- [IP Fabric Youtube Channel](https://www.youtube.com/c/IPFabric/videos) <br> IP Fabric's official Youtube channel.
-- [IP Fabric Network Field Day 23](https://www.youtube.com/playlist?list=PLinuRwpnsHaeH9fOOOKuXJWjijBZHa1iA) <br> Network Field Day 23 where IP Fabric presented.
-- [Unboxing the IP Fabric API](https://www.youtube.com/watch?v=QX9o7UQJ9h4) <br> Discovering how to use the IP Fabric API. 
-- [Python AsyncIO with IP Fabric](https://www.youtube.com/watch?v=RLyKYP2_uiE) <br> Using Python AsyncIO with IP Fabric.
-- [Python for Excel Worksheets, data validation and modeling with IP Fabric](https://www.youtube.com/watch?v=JxWX1pOwZvg) <br> Using Python with IP Fabric to do data validation and create Excel documents.
-- [Automated network remediation with IP Fabric](https://www.youtube.com/watch?v=pVGcqf1hNHQ) <br> Using IP Fabric's webhooks to trigger network automation activities in Python/Nornir
-- [IP Fabric and Cisco PSIRT API](https://www.youtube.com/watch?v=1NAuWwwycDg) <br> Demo of a script to take output from IP Fabric and the Cisco PSIRT API and produce vulnerability reports for Cisco devices in the inventory
+
+- [IP Fabric Youtube Channel](https://www.youtube.com/c/IPFabric/videos)
+  - IP Fabric's official Youtube channel.
+- [IP Fabric Network Field Day 27 (2022)](https://techfieldday.com/appearance/ip-fabric-presents-at-networking-field-day-27/)
+  - Network Field Day 27 IP Fabric presentations.
+- [IP Fabric Network Field Day 23 (2020)](https://www.youtube.com/playlist?list=PLinuRwpnsHaeH9fOOOKuXJWjijBZHa1iA)
+  - Network Field Day 23 where IP Fabric presented.
+- [Unboxing the IP Fabric API](https://www.youtube.com/watch?v=QX9o7UQJ9h4)
+  - Discovering how to use the IP Fabric API.
+- [Python for Excel Worksheets, data validation and modeling with IP Fabric](https://www.youtube.com/watch?v=JxWX1pOwZvg)
+  - Using Python with IP Fabric to do data validation and create Excel documents.
+- [Automated network remediation with IP Fabric](https://www.youtube.com/watch?v=pVGcqf1hNHQ)
+  - Using IP Fabric's webhooks to trigger network automation activities in Python/Nornir
+- [IP Fabric and Cisco PSIRT API](https://www.youtube.com/watch?v=1NAuWwwycDg)
+  - Demo of a script to take output from IP Fabric and the Cisco PSIRT API and produce vulnerability reports for 
+    Cisco devices in the inventory
 
 ## Blogs
-- [IP Fabric Blog](https://ipfabric.io/blog/) <br> The official IP Fabric blog.
+
+- [Official IP Fabric Blogs](https://ipfabric.io/blog/)
 
 ## Community
-- [IP Fabric Discord](https://discord.gg/JdT6BxbX) <br> IP Fabric's Discord server for access to the IP Fabric team and wider community discussion
+
+- [IP Fabric Discord](https://discord.gg/JdT6BxbX)
+  - IP Fabric's Discord server for access to the IP Fabric team and wider community discussion
+- [Network to Code Slack](https://slack.networktocode.com/)
+  - There is an #ipfabric channel on Network to Code's Slack which users can ask about Nautobot integrations.
