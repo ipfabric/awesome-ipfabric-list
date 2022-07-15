@@ -38,6 +38,8 @@ List of links and repos of useful integrations for IP Fabric users and developer
     connecting to an IP Fabric instance and using the information in IPF to populate or update Nautobot.
 - [NAUTI (Network Automation Tools Integrator)](https://nauti-netdev.github.io/nauti-docs/)
   - This tool allows for the ability to sync from IP Fabric to Sources of Truth such as Netbox.
+- [ipfabric-netbox](https://github.com/community-fabric/ipfabric-netbox)
+  - The project is a combination of code samples and examples to migrate data between IP Fabric v4.4.x and NetBox v3.3.2.
 - [ipf-netbox](https://github.com/jeremyschulman/ipf-netbox)
   - This package provides a CLI and python modules useful to integrate between IP Fabric and the Netbox project.
 
@@ -63,6 +65,9 @@ List of links and repos of useful integrations for IP Fabric users and developer
 
 ## Miscellaneous
 
+- [python-copy-ipfabric-settings](https://github.com/community-fabric/python-copy-ipfabric-settings)
+  - Copies settings including Intents and Dashboards from one instance to another
+  - Excludes items such as authentication, users, passwords, etc.
 - [Integration Demos](https://github.com/community-fabric/integration-demos)
   - Python examples used to demonstrate IP Fabric's integrations with other systems.
 - [OSPF Cost Baseline](https://github.com/jamieparks/IPFabric-OSPF-Cost-Baseline)
@@ -91,6 +96,11 @@ List of links and repos of useful integrations for IP Fabric users and developer
 
 ## Videos
 
+- [Integrated Network Automation & Assurance](https://www.itential.com/tech-partners/ipfabric/)
+  - [Live Network Field Day Presentation](https://youtu.be/2cq-5CDlFHI)
+  - Using Itential with IP Fabric & Netbox to automate ServiceNow requests and check connectivity using Path Lookups
+- [Closing the Loop with Network Assurance with IP Fabric](https://youtu.be/acZR2e8qJTM)
+  - Product Evangelist with IP Fabric, will discuss how introducing network assurance completes the loop. Using IP Fabric’s model of the network of networks, you can measure the success of multi-stage, cross-domain workflows; validate the data in supporting tooling like IPAM, CMDB and monitoring; and use IP Fabric’s insight into your network behavior to trigger and influence automation workflow logic.
 - [IP Fabric Youtube Channel](https://www.youtube.com/c/IPFabric/videos)
   - IP Fabric's official Youtube channel.
 - [IP Fabric Network Field Day 27 (2022)](https://techfieldday.com/appearance/ip-fabric-presents-at-networking-field-day-27/)
