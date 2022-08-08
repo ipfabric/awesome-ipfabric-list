@@ -21,6 +21,7 @@ List of links and repos of useful integrations for IP Fabric users and developer
   - Please open bugs or feature requests on [GitHub](https://github.com/community-fabric/python-ipfabric/issues)
 - [python-ipfabric-diagrams](https://github.com/community-fabric/python-ipfabric-diagrams)
   - IP Fabric supported Python SDK for interacting with IP Fabric Diagrams in v4.3 and above.
+  - Example code to show how to use the diagram APIs - including the production of a reachability matrix
   - Please open bugs or feature requests on [GitHub](https://github.com/community-fabric/python-ipfabric-diagrams/issues)
 - [aio-ipfabric](https://github.com/jeremyschulman/aio-ipfabric)
   - Community built Python Asyncio Client for IP Fabric.
