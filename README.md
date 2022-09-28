@@ -124,7 +124,8 @@ List of links and repos of useful integrations for IP Fabric users and developer
 
 ## Community
 
-- [IP Fabric Discord](https://discord.gg/JdT6BxbX)
-  - IP Fabric's Discord server for access to the IP Fabric team and wider community discussion
+- [Community Fabric Slack](https://join.slack.com/t/ipfabric-community/shared_invite/zt-1gqe9jvw1-aJImnQuieH3CR2KVqWZJzA)
+  - IP Fabric's Open Slack server for access to the IP Fabric team and wider community discussion
+  - Please note we are migrating from Discord to Slack
 - [Network to Code Slack](https://slack.networktocode.com/)
   - There is an #ipfabric channel on Network to Code's Slack which users can ask about Nautobot integrations.
