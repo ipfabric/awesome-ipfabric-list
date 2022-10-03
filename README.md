@@ -97,6 +97,8 @@ List of links and repos of useful integrations for IP Fabric users and developer
 
 ## Videos
 
+- [Netbox September Community Call](https://netbox.dev/announcements/september-community-call/)
+  - The recording of our September community call is now available on YouTube! This month, we welcome Jonathan Senecal to the maintainers team, celebrate the release of terraform-provider-netbox version 3.0, and highlight some interesting recent discussion. Perhaps most exicting is that Daren Fulwell joins us to demonstrate how users can leverage IP Fabric network assurance platform to programmatically and safely populate NetBox data.
 - [Integrated Network Automation & Assurance](https://www.itential.com/tech-partners/ipfabric/)
   - [Live Network Field Day Presentation](https://youtu.be/2cq-5CDlFHI)
   - Using Itential with IP Fabric & Netbox to automate ServiceNow requests and check connectivity using Path Lookups
