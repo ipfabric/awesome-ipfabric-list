@@ -52,7 +52,7 @@ List of links and repos of useful integrations for IP Fabric users and developer
   - IP Fabric inventory plugin for [nornir](https://github.com/nornir-automation/nornir).
 - [ipf-netcfgbu](https://github.com/jeremyschulman/ipf-netcfgbu)
   - Save the network device configuration from IP Fabric into a Git repository.
-- [python-ipfabric Config Example](https://github.com/community-fabric/python-ipfabric/blob/main/examples/tools/config.py)
+- [python-ipfabric Config Example](https://github.com/community-fabric/python-ipfabric/blob/develop/examples/tools/config.py)
   - Example on how to use python-ipfabric to search and get device configurations or logs.
 
 ## ChatOps
@@ -78,15 +78,15 @@ List of links and repos of useful integrations for IP Fabric users and developer
     [Site Separation using Device Attributes Example](https://github.com/community-fabric/python-ipfabric/blob/main/examples/settings/attributes.py)
   - Python script to automatically update siteSeparation in IP Fabric based on external source for v4.2 or below.
 - CVE reporting examples:
-  - [python-ipfabric CVE Example](https://github.com/community-fabric/python-ipfabric/blob/main/examples/tools/cve_check.py)
+  - [python-ipfabric CVE Example](https://github.com/community-fabric/python-ipfabric/blob/develop/examples/tools/cve_check.py)
     - Uses python-ipfabric to pull CVE data for devices, sites, or vendors.
   - [CVE Report](https://github.com/community-fabric/cve-report)
     - Also uses python-ipfabric but creates an Excel report for all devices.
 - Intent Rules
-  - [python-ipfabric Intent Rule Reporting](https://github.com/community-fabric/python-ipfabric/blob/main/examples/intent_reports.py)
+  - [python-ipfabric Intent Rule Reporting](https://github.com/community-fabric/python-ipfabric/blob/develop/examples/intent_reports.py)
     - Uses python-ipfabric to pull Intent checks and the example also shows an Excel report.
     - Also shows ho to use the comparison feature which compares Intent checks between snapshots.
-  - [python-ipfabric Intent Rule Data](https://github.com/community-fabric/python-ipfabric/blob/main/examples/intent.py)
+  - [python-ipfabric Intent Rule Data](https://github.com/community-fabric/python-ipfabric/blob/develop/examples/intent.py)
     - Uses python-ipfabric to pull the data for an Intent checks which will return the table data not just the number
       of results.
 - [Automated PDF Report](https://github.com/community-fabric/ipfabric-webhook-listener/blob/pdf_report/README-pdf.md)
