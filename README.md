@@ -16,13 +16,13 @@ List of links and repos of useful integrations for IP Fabric users and developer
 
 ## Libraries
 
-- [python-ipfabric](https://github.com/community-fabric/python-ipfabric)
-  - IP Fabric supported Python SDK for interacting with IP Fabric API, includes diagramming support for v4.0-4.2.
-  - Please open bugs or feature requests on [GitHub](https://github.com/community-fabric/python-ipfabric/issues)
-- [python-ipfabric-diagrams](https://github.com/community-fabric/python-ipfabric-diagrams)
+- [python-ipfabric](https://gitlab.com/ip-fabric/integrations/python-ipfabric)
+  - IP Fabric supported Python SDK for interacting with IP Fabric API.
+  - Please open bugs or feature requests on [GitLab](https://gitlab.com/ip-fabric/integrations/python-ipfabric/-/issues)
+- [python-ipfabric-diagrams](https://gitlab.com/ip-fabric/integrations/python-ipfabric-diagrams)
   - IP Fabric supported Python SDK for interacting with IP Fabric Diagrams in v4.3 and above.
   - Example code to show how to use the diagram APIs - including the production of a reachability matrix
-  - Please open bugs or feature requests on [GitHub](https://github.com/community-fabric/python-ipfabric-diagrams/issues)
+  - Please open bugs or feature requests on [GitLab](https://gitlab.com/ip-fabric/integrations/python-ipfabric-diagrams/-/issues)
 - [aio-ipfabric](https://github.com/jeremyschulman/aio-ipfabric)
   - Community built Python Asyncio Client for IP Fabric.
   - [Python AsyncIO with IP Fabric Demo Video](https://www.youtube.com/watch?v=RLyKYP2_uiE)
@@ -34,7 +34,7 @@ List of links and repos of useful integrations for IP Fabric users and developer
 
 ## Source of Truth
 
-- [Nautobot Single Source of Truth (SSOT) IP Fabric Plugin](https://github.com/justinjeffery-ipf/nautobot-plugin-ssot-ipfabric)
+- [Nautobot Single Source of Truth (SSOT) IP Fabric Plugin](https://github.com/nautobot/nautobot-plugin-ssot-ipfabric)
   - This is a plugin for the [Nautobot](https://nautobot.readthedocs.io/) platform (Netbox Fork) which allows for 
     connecting to an IP Fabric instance and using the information in IPF to populate or update Nautobot.
 - [NAUTI (Network Automation Tools Integrator)](https://nauti-netdev.github.io/nauti-docs/)
@@ -46,13 +46,13 @@ List of links and repos of useful integrations for IP Fabric users and developer
 
 ## Configuration Management
 
-- [ansible-ipfabric](https://github.com/axiansdeveloper/ansible-ipfabric)
+- [ipfabric-ansible](https://github.com/community-fabric/ipfabric-ansible)
   - Ansible collection to work with IP Fabric (Inventory, Modules).
 - [nornir-ipfabric](https://github.com/routetonull/nornir_ipfabric)
   - IP Fabric inventory plugin for [nornir](https://github.com/nornir-automation/nornir).
 - [ipf-netcfgbu](https://github.com/jeremyschulman/ipf-netcfgbu)
   - Save the network device configuration from IP Fabric into a Git repository.
-- [python-ipfabric Config Example](https://github.com/community-fabric/python-ipfabric/blob/develop/examples/tools/config.py)
+- [python-ipfabric Config Example](https://gitlab.com/ip-fabric/integrations/python-ipfabric/-/blob/develop/examples/tools/config.py)
   - Example on how to use python-ipfabric to search and get device configurations or logs.
 
 ## ChatOps
@@ -83,10 +83,10 @@ List of links and repos of useful integrations for IP Fabric users and developer
   - [CVE Report](https://github.com/community-fabric/cve-report)
     - Also uses python-ipfabric but creates an Excel report for all devices.
 - Intent Rules
-  - [python-ipfabric Intent Rule Reporting](https://github.com/community-fabric/python-ipfabric/blob/develop/examples/intent_reports.py)
+  - [python-ipfabric Intent Rule Reporting](https://gitlab.com/ip-fabric/integrations/python-ipfabric/-/blob/develop/examples/intent_reports.py)
     - Uses python-ipfabric to pull Intent checks and the example also shows an Excel report.
     - Also shows ho to use the comparison feature which compares Intent checks between snapshots.
-  - [python-ipfabric Intent Rule Data](https://github.com/community-fabric/python-ipfabric/blob/develop/examples/intent.py)
+  - [python-ipfabric Intent Rule Data](https://gitlab.com/ip-fabric/integrations/python-ipfabric/-/blob/develop/examples/intent.py)
     - Uses python-ipfabric to pull the data for an Intent checks which will return the table data not just the number
       of results.
 - [Automated PDF Report](https://github.com/community-fabric/ipfabric-webhook-listener/blob/pdf_report/README-pdf.md)
@@ -128,6 +128,5 @@ List of links and repos of useful integrations for IP Fabric users and developer
 
 - [Community Fabric Slack](https://join.slack.com/t/ipfabric-community/shared_invite/zt-1gqe9jvw1-aJImnQuieH3CR2KVqWZJzA)
   - IP Fabric's Open Slack server for access to the IP Fabric team and wider community discussion
-  - Please note we are migrating from Discord to Slack
 - [Network to Code Slack](https://slack.networktocode.com/)
   - There is an #ipfabric channel on Network to Code's Slack which users can ask about Nautobot integrations.
