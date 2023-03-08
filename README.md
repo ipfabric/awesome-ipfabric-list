@@ -46,7 +46,7 @@ List of links and repos of useful integrations for IP Fabric users and developer
 
 ## Configuration Management
 
-- [ipfabric-ansible](https://github.com/community-fabric/ipfabric-ansible)
+- [ipfabric-ansible](https://gitlab.com/ip-fabric/integrations/ipfabric-ansible)
   - Ansible collection to work with IP Fabric (Inventory, Modules).
 - [nornir-ipfabric](https://github.com/routetonull/nornir_ipfabric)
   - IP Fabric inventory plugin for [nornir](https://github.com/nornir-automation/nornir).
@@ -66,7 +66,7 @@ List of links and repos of useful integrations for IP Fabric users and developer
 
 ## Miscellaneous
 
-- [python-copy-ipfabric-settings](https://github.com/community-fabric/python-copy-ipfabric-settings)
+- [Copy IP Fabric Settings](https://gitlab.com/ip-fabric/integrations/python-ipfabric/-/tree/develop/examples/copy_settings)
   - Copies settings including Intents and Dashboards from one instance to another
   - Excludes items such as authentication, users, passwords, etc.
 - [Integration Demos](https://github.com/community-fabric/integration-demos)
@@ -78,7 +78,7 @@ List of links and repos of useful integrations for IP Fabric users and developer
     [Site Separation using Device Attributes Example](https://github.com/community-fabric/python-ipfabric/blob/main/examples/settings/attributes.py)
   - Python script to automatically update siteSeparation in IP Fabric based on external source for v4.2 or below.
 - CVE reporting examples:
-  - [python-ipfabric CVE Example](https://github.com/community-fabric/python-ipfabric/blob/develop/examples/tools/cve_check.py)
+  - [python-ipfabric CVE Example](https://gitlab.com/ip-fabric/integrations/python-ipfabric/-/blob/develop/examples/tools/cve_check.py)
     - Uses python-ipfabric to pull CVE data for devices, sites, or vendors.
   - [CVE Report](https://github.com/community-fabric/cve-report)
     - Also uses python-ipfabric but creates an Excel report for all devices.
