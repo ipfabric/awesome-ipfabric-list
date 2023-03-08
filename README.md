@@ -2,6 +2,8 @@
 
 List of links and repos of useful integrations for IP Fabric users and developers.
 
+Repo is mirrored from https://gitlab.com/ip-fabric/integrations/awesome-ipfabric-list. Please open all issues or Pull Requests on GitLab.
+
 ## Table of Contents
 
 - [Libraries](#libraries)
