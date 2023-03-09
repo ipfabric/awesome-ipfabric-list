@@ -71,14 +71,12 @@ Repo is mirrored from https://gitlab.com/ip-fabric/integrations/awesome-ipfabric
 - [Copy IP Fabric Settings](https://gitlab.com/ip-fabric/integrations/python-ipfabric/-/tree/develop/examples/copy_settings)
   - Copies settings including Intents and Dashboards from one instance to another
   - Excludes items such as authentication, users, passwords, etc.
-- [Integration Demos](https://github.com/community-fabric/integration-demos)
-  - Python examples used to demonstrate IP Fabric's integrations with other systems.
+- [Integration, Blog, & Webinar Demos](https://gitlab.com/ip-fabric/integrations/marketing-examples/-/tree/main/)
+  - Examples referenced in IP Fabric blogs or webinars used to demonstrate IP Fabric's integrations with other systems.
 - [OSPF Cost Baseline](https://github.com/jamieparks/IPFabric-OSPF-Cost-Baseline)
   - Compares live OSPF Interface costs against a set of values in a CSV file.
-- [Site Separation](https://github.com/sdargoeuves/ipf-siteSeparation)
-  - With the addition of new Site Separation rules in IPF v4.3 please see 
-    [Site Separation using Device Attributes Example](https://github.com/community-fabric/python-ipfabric/blob/main/examples/settings/attributes.py)
-  - Python script to automatically update siteSeparation in IP Fabric based on external source for v4.2 or below.
+- [Site Separation using Device Attributes Example](https://github.com/community-fabric/python-ipfabric/blob/main/examples/settings/attributes.py)
+  - Python script to automatically to apply Attributes to devices for Site Separation.
 - CVE reporting examples:
   - [python-ipfabric CVE Example](https://gitlab.com/ip-fabric/integrations/python-ipfabric/-/blob/develop/examples/tools/cve_check.py)
     - Uses python-ipfabric to pull CVE data for devices, sites, or vendors.
@@ -94,8 +92,7 @@ Repo is mirrored from https://gitlab.com/ip-fabric/integrations/awesome-ipfabric
 - [Automated PDF Report](https://gitlab.com/ip-fabric/integrations/marketing-examples/-/tree/main/blogs/2022-05-06-api-programmability-part-3-webhooks/pdf_report)
   - Uses the webhook listener to create and email a PDF summary report when an automated snapshot completes
 - [Webhook Listener to Postgres DB](https://gitlab.com/ip-fabric/integrations/marketing-examples/-/tree/main/blogs/2022-05-06-api-programmability-part-3-webhooks/postgres)
-  - Uses webhook listener to extract certain data from IP Fabric and insert it into a Postgres DB for long term
-    trending analysis for tools lie Tableau, Grafana, etc.
+  - Uses webhook listener to extract certain data from IP Fabric and insert it into a Postgres DB for long term trending analysis for tools lie Tableau, Grafana, etc.
 
 ## Videos
 
