@@ -82,7 +82,7 @@ Repo is mirrored from https://gitlab.com/ip-fabric/integrations/awesome-ipfabric
 - CVE reporting examples:
   - [python-ipfabric CVE Example](https://gitlab.com/ip-fabric/integrations/python-ipfabric/-/blob/develop/examples/tools/cve_check.py)
     - Uses python-ipfabric to pull CVE data for devices, sites, or vendors.
-  - [CVE Report](https://github.com/community-fabric/cve-report)
+  - [CVE Report](https://gitlab.com/ip-fabric/integrations/scripts/cve-report)
     - Also uses python-ipfabric but creates an Excel report for all devices.
 - Intent Rules
   - [python-ipfabric Intent Rule Reporting](https://gitlab.com/ip-fabric/integrations/python-ipfabric/-/blob/develop/examples/intent_reports.py)
@@ -91,9 +91,9 @@ Repo is mirrored from https://gitlab.com/ip-fabric/integrations/awesome-ipfabric
   - [python-ipfabric Intent Rule Data](https://gitlab.com/ip-fabric/integrations/python-ipfabric/-/blob/develop/examples/intent.py)
     - Uses python-ipfabric to pull the data for an Intent checks which will return the table data not just the number
       of results.
-- [Automated PDF Report](https://github.com/community-fabric/ipfabric-webhook-listener/blob/pdf_report/README-pdf.md)
+- [Automated PDF Report](https://gitlab.com/ip-fabric/integrations/marketing-examples/-/tree/main/blogs/2022-05-06-api-programmability-part-3-webhooks/pdf_report)
   - Uses the webhook listener to create and email a PDF summary report when an automated snapshot completes
-- [Webhook Listener to Postgres DB](https://github.com/community-fabric/ipfabric-webhook-listener/blob/postgres/README-postgres.md)
+- [Webhook Listener to Postgres DB](https://gitlab.com/ip-fabric/integrations/marketing-examples/-/tree/main/blogs/2022-05-06-api-programmability-part-3-webhooks/postgres)
   - Uses webhook listener to extract certain data from IP Fabric and insert it into a Postgres DB for long term
     trending analysis for tools lie Tableau, Grafana, etc.
 
