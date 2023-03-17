@@ -39,6 +39,7 @@ Repo is mirrored from https://gitlab.com/ip-fabric/integrations/awesome-ipfabric
 - [Nautobot Single Source of Truth (SSOT) IP Fabric Plugin](https://github.com/nautobot/nautobot-plugin-ssot-ipfabric)
   - This is a plugin for the [Nautobot](https://nautobot.readthedocs.io/) platform (Netbox Fork) which allows for 
     connecting to an IP Fabric instance and using the information in IPF to populate or update Nautobot.
+  - [Innovation in Your Network Service Using IP Fabric](https://techfieldday.com/video/innovation-in-your-network-service-using-ip-fabric/) IP Fabric and Network to Code presents how the Nautobot SSOT plugin syncs your IPF data into Nautobot at Networking Field Day 27.
 - [NAUTI (Network Automation Tools Integrator)](https://nauti-netdev.github.io/nauti-docs/)
   - This tool allows for the ability to sync from IP Fabric to Sources of Truth such as Netbox.
 - [ipfabric-netbox](https://github.com/community-fabric/ipfabric-netbox)
