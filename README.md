@@ -4,6 +4,22 @@ List of links and repos of useful integrations for IP Fabric users and developer
 
 Repo is mirrored from https://gitlab.com/ip-fabric/integrations/awesome-ipfabric-list. Please open all issues or Pull Requests on GitLab.
 
+## IP Fabric
+
+[IP Fabric](https://ipfabric.io) is a vendor-neutral network assurance platform that automates the 
+holistic discovery, verification, visualization, and documentation of 
+large-scale enterprise networks, reducing the associated costs and required 
+resources whilst improving security and efficiency.
+
+It supports your engineering and operations teams, underpinning migration and 
+transformation projects. IP Fabric will revolutionize how you approach network 
+visibility and assurance, security assurance, automation, multi-cloud 
+networking, and trouble resolution.
+
+**Integrations or scripts should not be installed directly on the IP Fabric VM unless directly communicated from the
+IP Fabric Support or Solution Architect teams.  Any action on the Command-Line Interface (CLI) using the root, osadmin,
+or autoboss account may cause irreversible, detrimental changes to the product and can render the system unusable.**
+
 ## Table of Contents
 
 - [Libraries](#libraries)
